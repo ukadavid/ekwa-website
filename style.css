@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+   font-family: 'Poppins', sans-serif;
+}
+
+body::before {
+  display: block;
+  content: '';
+  height: 60px;
+}
+
+/* Header */
+.main-header {
+  background-image: url(./Images/Main-header\ picture.png);
+}
+
+@media (min-width: 768px) {
+  .company-align {
+    width: 50%;
+  }
+}
+
+
+.navbar-nav li a:hover{
+  border-bottom: 2px solid #F1BF0F;
+}
+
+hr {
+ border-top: solid 2px black;
+ border-bottom: none;
+ width: 20%;
+ margin: 5px auto;
+}
+
+
+
+/* Product and Services */
+.product-service {
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.product-service img, .product-img img {
+  opacity: 1;
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: -webkit-transform 0.5s, opacity 0.7s;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.product-service img:hover, .product-img img:hover {
+    opacity: 1;
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+/* Testimonial Page */
+i {
+  font-size: 4rem;
+}
+
+/* Get In Touch Section */
+.in-touch {
+  background-image: url(./Images/In-touch.png);
+}
+
+
+/* footer */
+footer{
+  background-color: #075E8C;
+  color: #fff;
+}
+
+
+.footer-link{
+  list-style-type: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  width: 70%;
+}
+
+.footer-link a, .email-link a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo-text {
+  width: 80%;
+}
+
+.footer-bottom{
+  background-color: #27335C;
+}
+
+body::before {
+  display: block;
+  content: '';
+  height: 60px;
+}
+
+/* About Page */
+.about-header {
+  background-image: url(./Images/Header\ picture.png);
+  color: #fff;
+}
+
+.about-header h1 {
+  padding: 5rem;
+}
+
+
